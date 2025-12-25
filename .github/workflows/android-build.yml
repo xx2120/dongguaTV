@@ -3,7 +3,8 @@ name: Android Build & Release
 on:
   push:
     tags:
-      - 'v*.*.*'  # 只在推送版本标签时触发
+      #- 'v*.*.*'  # 只在推送版本标签时触发
+      - 'v1.0.0'
   workflow_dispatch:
     inputs:
       server_url:
